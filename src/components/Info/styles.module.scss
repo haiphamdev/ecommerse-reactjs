@@ -11,6 +11,9 @@
 
 .containerCard {
     @include flex_box_custom(center, center, 18px);
+
+    width: 280px;
+    height: 104px;
 }
 
 .containerContent {
