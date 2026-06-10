@@ -4,7 +4,10 @@
 .container {
     @include flex_box_custom(center, center, 0px);
 
-    background-color: bisque;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .containerHeader {
@@ -17,6 +20,7 @@
 
 .containerBox {
     @include flex_box_custom(center, center, 20px);
+    cursor: pointer;
 }
 
 .containerBoxIcon {
@@ -33,6 +37,7 @@
     background-color: $primary_color;
     width: 26px;
     height: 26px;
+    cursor: pointer;
 }
 
 .menu {

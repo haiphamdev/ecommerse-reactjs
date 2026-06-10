@@ -1,12 +1,9 @@
-import MyFooter from '@components/Footer/Footer';
-import MyHeader from '@components/Header/Header';
+import HomePage from '@components/HomePage/HomePage';
 
 function App() {
     return (
         <>
-            <MyHeader />
-            content
-            <MyFooter />
+            <HomePage />
         </>
     );
 }
