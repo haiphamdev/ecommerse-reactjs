@@ -1,9 +1,6 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import MainLayout from '@components/Layout';
-import MyHeader from '@components/Header/Header';
 import MyFooter from '@components/Footer/Footer';
-import Button from '@components/Button/Button';
+import MyHeader from '@components/Header/Header';
+import MainLayout from '@components/Layout/Layout';
 
 function App() {
     return (
@@ -12,7 +9,6 @@ function App() {
                 <MyHeader />
                 content
                 <MyFooter />
-                <Button />
             </MainLayout>
         </>
     );
