@@ -5,8 +5,8 @@
 @mixin flex_box_custom($x, $y, $gap, $dir: row) {
     display: flex;
     flex-direction: $dir;
-    align-items: $y;
     justify-content: $x;
+    align-items: $y;
     gap: $gap;
 }
 
