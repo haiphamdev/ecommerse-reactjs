@@ -22,8 +22,6 @@ function CountdownTimer({ targetDate }) {
         return timeLeft;
     }
 
-    console.log('111', timeLeft);
-
     useEffect(() => {
         const timer = setTimeout(() => {
             setTimeLeft(calculateTimeLeft());
